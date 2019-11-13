@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es5",
+        "allowJs": true,
+        "baseUrl": "./",
+        "paths": {
+            "import-jpg": [
+                "types/import-jpg"
+            ],
+        },
+        "typeRoots": [
+            "types",
+            "node_modules/@types"
+        ]
+    }
+}
